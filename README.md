@@ -4,16 +4,6 @@ A producer-consumer program in C++. Several producer threads create tasks and pu
 
 Scenario: a small job-processing service. Producers submit jobs, consumers are worker threads that run them. Running a job is simulated with a short sleep.
 
-## Repository contents
-
-| Path | Content |
-|---|---|
-| `task5.cpp` | Complete source code (single file) |
-| `report/Task5_Report.docx`, `report/Task5_Report.pdf` | Technical report |
-| `diagrams/sync_diagram.png` | Synchronization diagram (source: `sync_diagram.dot`) |
-| `screenshots/` | Terminal screenshots of every menu option |
-| `results/` | Raw text output of every run used in the report |
-
 ## Dependencies
 
 - A C++ compiler with C++20 support, because `<semaphore>` is a C++20 header. g++ 11 or newer works. Tested with g++ 13.3.0.
